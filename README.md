@@ -9,5 +9,6 @@ Workshop was given 8 novemember 2014 at Paris College of Art, Paris. Original ti
 
 All sketches we coded in Processing and are the examples used to introduce key concepts for the participants to learn and develop their own ideas. Further information can be read at the following website :
 http://freeartbureau.org/sundays/
-
+=================================
+![PatternPoster](https://cloud.githubusercontent.com/assets/1027891/5423854/1cbe06be-82d4-11e4-94af-eec5c88227fe.jpg)
 
