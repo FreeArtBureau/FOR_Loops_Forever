@@ -8,9 +8,6 @@
 /////////////////////////// GLOBALS ////////////////////////////
 //Import ControlP5 Library
 import controlP5.*;
-// Also importing java.awt to manage our new window
-import java.awt.Frame;
-import java.awt.BorderLayout;
 
 //Declare an object for our interface
 ControlP5 INTERFACES;
@@ -22,15 +19,20 @@ float thickness;
 
 /////////////////////////// SETUP ////////////////////////////
 
-void setup() {
+void settings() {
   size(650, 450);
+}
+
+void setup() {
+  
   background(255);
   smooth();
   noFill();  
   // Initialise Interface
   INTERFACES = new ControlP5(this); 
   // ADD NEW WINDOW
-  CW = addControlFrame("controlP5window", 200, 300);
+  CW = new ControlFrame(this, 400, 200, "Controls");
+  surface.setLocation(420, 10);
 }
 
 /////////////////////////// DRAW ////////////////////////////
@@ -48,4 +50,3 @@ void draw() {
 }
 
 /////////////////////////// FUNCTIONS ////////////////////////////
-
